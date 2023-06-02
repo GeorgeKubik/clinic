@@ -5,7 +5,7 @@ const SpecialistsPage = () => {
 	return (
 		<>
 			<div className={styles.wrapper}>
-				<div className={styles.title}>SpecialistsPage</div>
+				<div className={styles.title}>Specialist</div>
 			</div>
 		</>
 	)

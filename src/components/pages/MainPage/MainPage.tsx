@@ -1,12 +1,10 @@
-
-import About from "../../About/index";
+import SliderMain from "../../Slider";
 
 const MainPage = () => {
-
-	return (
-		<>
-			<About/>
-		</>
-	)
-}
+  return (
+    <>
+      <SliderMain />
+    </>
+  );
+};
 export default MainPage;

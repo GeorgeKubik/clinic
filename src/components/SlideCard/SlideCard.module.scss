@@ -59,8 +59,22 @@
 	.buttonBlock {
 		margin-top: 26px;
 	}
-	.btnLeft {
+	.btnEnroll {
 		margin-right: 14px;
+		background: #0dbc91;
+		color: #e2f0ef;
+		&:hover {
+			background: #e2f0ef;
+			color: #0dbc91;
+		}
+	}
+	.btnMore {
+		background: #ffffff;
+		color: #0dbc91;
+		&:hover {
+			background: #0dbc91;
+			color: #e2f0ef;
+		}
 	}
 }
 .btn {
@@ -70,12 +84,6 @@
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 21px;
-	background: #0dbc91;
-	color: #ffffff;
-	&:hover {
-		background: #e2f0ef;
-		color: #0dbc91;
-	}
 }
 .btnComment {
 	padding: 5px 19px;
@@ -86,7 +94,7 @@
 	padding: 10px;
 	background: #d8b91e;
 	border-radius: 10px;
-	transition: all .5s;
+	transition: all 0.5s;
 }
 .slideImage {
 	height: 100%;

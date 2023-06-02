@@ -71,18 +71,10 @@ body {
 .menu {
 	width: 100%;
 	background: #1fa181;
-	.menuWrapper {
-		width: 500px;
-		height: 43px;
-		display: flex;
-		justify-content: flex-start;
-		align-items: center;
-		menu {
-			display: flex;
-			justify-content: space-between;
-			align-items: center;
-		}
-	}
+	height: 43px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 .modal {
@@ -130,8 +122,8 @@ body {
 			font-weight: 700;
 			font-size: 14px;
 			line-height: 21px;
-			color: #1FA181;
-			background: #F6F6F6;
+			color: #1fa181;
+			background: #f6f6f6;
 			border-radius: 50px;
 		}
 	}

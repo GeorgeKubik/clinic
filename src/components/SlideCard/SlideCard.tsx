@@ -43,8 +43,8 @@ const SlideCard = ({data}:IDataType) => {
 					</ul>
 					<div className={styles.price}>Всего {data.price} <span className={styles.oldPrice}>{data.oldPrice}</span></div>
 					<div className={styles.buttonBlock}>
-						<button onClick={handleClick} className={`${styles.btnLeft} ${styles.btn}`}>Записаться</button>
-						<button className={`${styles.btnRight} ${styles.btn}`}>Подробнее</button>
+						<button onClick={handleClick} className={`${styles.btnEnroll} ${styles.btn}`}>Записаться</button>
+						<button className={`${styles.btnMore} ${styles.btn}`}>Подробнее</button>
 					</div>
 				</div>
 				<img className={styles.slideImage} src={data.img} alt="slideImage"/> 
