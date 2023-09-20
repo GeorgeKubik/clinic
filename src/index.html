@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Clinic</title>
+    <!-- Favicon  -->
+    <link
+      rel="apple-touch-icon"
+      sizes="57x57"
+      href="icons/favicon//apple-icon-57x57.png"
+    />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <link rel="stylesheet" href="css/style.min.css" />
+  </head>
+  <body>
+    <!-- Form -->
+    <form class="form" action="form.php" method="post">
+      <div class="form__wrapper">
+			<div class="form__close">&#11198</div>
+        <h2 class="form__title">Заполните форму</h2>
+		  <label class="form__label" for="name">Введите имя</label>
+        <input required class="form__input" type="text" name="name" placeholder="Name" />
+		  <label class="form__label" for="phone">Введите номер телефона</label>
+        <input required class="form__input" type="phone" name="phone" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" placeholder="+7 9** *** ** ** " />
+        <button class="form__btn btn">Отправить</button>
+      </div>
+    </form>
+   
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header__block display-flex">
+          <div class="hamburger">
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+            <div class="hamburger__line"></div>
+          </div>
+          <div class="header__block-left display-flex">
+            <img class="header__logo" src="./img/logo.png" alt="logo" />
+            <div class="header__address display-flex-column">
+              <div class="header__address-block-city display-flex">
+                <img
+                  class="header__address-icon"
+                  src="./icons/iconMark.svg"
+                  alt="icon"
+                />
+                <div class="city">Ростов-на-Дону</div>
+              </div>
+              <div class="header__address-street">ул. Ленина, 2Б</div>
+            </div>
+          </div>
+          <div class="header__block-right display-flex">
+            <img
+              class="header__icon-whatsapp"
+              src="./icons/whatsapp.svg"
+              alt="icon"
+            />
+            <div class="header__phone">+7(863) 000 00 00</div>
+            <button class="header__btn btn">Записаться на прием</button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Menu -->
+
+    <nav class="menu">
+      <div class="container">
+        <ul class="menu__items display-flex">
+          <li class="menu__item">
+            <a class="menu__link" href="#about">О клинике</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#services">Услуги</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#specialists">Специалисты</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#price">Цены</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="#contacts">Контакты</a>
+          </li>
+          <button class="btn menu__btn">Записаться на прием</button>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Content -->
+
+    <main class="main">
+      <div class="container">
+        <div class="main__wrapper">
+          <div class="main__content">
+            <h1 class="main__title">
+              Многопрофильная клиника для детей и взрослых
+            </h1>
+            <p class="main__text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua
+            </p>
+          </div>
+          <img
+            class="main__image"
+            src="./img/image_main.png"
+            alt="image_main"
+          />
+        </div>
+      </div>
+    </main>
+
+    <!-- Slider -->
+
+    <div class="slider-section">
+      <div class="container">
+        <div class="slider">
+          <div class="slider__block">
+            <div class="slider__item">
+              <div class="slider__content">
+                <h2 class="slider__title">Check-UP</h2>
+                <div class="slider__subtitle">для мужчин</div>
+                <ul class="slider__list">
+                  <li class="slider__list-item">Гормональный скрининг</li>
+                  <li class="slider__list-item">Тестостерон</li>
+                  <li class="slider__list-item">Свободный тестостерон</li>
+                  <li class="slider__list-item">
+                    Глобули, cвязывающий половые гормоны
+                  </li>
+                </ul>
+                <div class="slider__price">
+                  Всего 2800₽ <span class="slider__price-through">3500₽</span>
+                </div>
+                <div class="slider__block__btn">
+                  <button class="btn slider__btn">Записаться</button>
+                  <button class="btn-white slider__btn">Подробнее</button>
+                </div>
+              </div>
+              <img
+                class="slider__image"
+                src="./img/slider__image.png"
+                alt="slider_image"
+              />
+            </div>
+            <div class="slider__item">
+              <div class="slider__content">
+                <h2 class="slider__title">Check-UP</h2>
+                <div class="slider__subtitle">для мужчин</div>
+                <ul class="slider__list">
+                  <li class="slider__list-item">Гормональный скрининг</li>
+                  <li class="slider__list-item">Тестостерон</li>
+                  <li class="slider__list-item">Свободный тестостерон</li>
+                  <li class="slider__list-item">
+                    Глобули, cвязывающий половые гормоны
+                  </li>
+                </ul>
+                <div class="slider__price">
+                  Всего 2800₽ <span class="slider__price-through">3500₽</span>
+                </div>
+                <div class="slider__block__btn">
+                  <button class="btn slider__btn">Записаться</button>
+                  <button class="btn-white slider__btn">Подробнее</button>
+                </div>
+              </div>
+              <img
+                class="slider__image"
+                src="./img/slider__image.png"
+                alt="slider_image"
+              />
+            </div>
+            <div class="slider__item">
+              <div class="slider__content">
+                <h2 class="slider__title">Check-UP</h2>
+                <div class="slider__subtitle">для мужчин</div>
+                <ul class="slider__list">
+                  <li class="slider__list-item">Гормональный скрининг</li>
+                  <li class="slider__list-item">Тестостерон</li>
+                  <li class="slider__list-item">Свободный тестостерон</li>
+                  <li class="slider__list-item">
+                    Глобули, cвязывающий половые гормоны
+                  </li>
+                </ul>
+                <div class="slider__price">
+                  Всего 2800₽ <span class="slider__price-through">3500₽</span>
+                </div>
+                <div class="slider__block__btn">
+                  <button class="btn slider__btn">Записаться</button>
+                  <button class="btn-white slider__btn">Подробнее</button>
+                </div>
+              </div>
+              <img
+                class="slider__image"
+                src="./img/slider__image.png"
+                alt="slider_image"
+              />
+            </div>
+            <div class="slider__item">
+              <div class="slider__content">
+                <h2 class="slider__title">Check-UP</h2>
+                <div class="slider__subtitle">для мужчин</div>
+                <ul class="slider__list">
+                  <li class="slider__list-item">Гормональный скрининг</li>
+                  <li class="slider__list-item">Тестостерон</li>
+                  <li class="slider__list-item">Свободный тестостерон</li>
+                  <li class="slider__list-item">
+                    Глобули, cвязывающий половые гормоны
+                  </li>
+                </ul>
+                <div class="slider__price">
+                  Всего 2800₽ <span class="slider__price-through">3500₽</span>
+                </div>
+                <div class="slider__block__btn">
+                  <button class="btn slider__btn">Записаться</button>
+                  <button class="btn-white slider__btn">Подробнее</button>
+                </div>
+              </div>
+              <img
+                class="slider__image"
+                src="./img/slider__image.png"
+                alt="slider_image"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="slider__switch">
+          <button class="slider-prev">
+            <svg
+              width="34"
+              height="18"
+              viewBox="0 0 34 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M32.6718 7.67186H4.54493L9.20426 3.03512C9.72416 2.51768 9.72615 1.67678 9.20871 1.15689C8.69127 0.636925 7.8503 0.635 7.33041 1.15237L0.390691 8.05861C0.390226 8.05901 0.389894 8.05947 0.389496 8.05987C-0.129071 8.57731 -0.130731 9.42093 0.389363 9.94009C0.389828 9.94049 0.39016 9.94095 0.390558 9.94135L7.33028 16.8476C7.85011 17.3649 8.69107 17.3631 9.20858 16.8431C9.72602 16.3232 9.72402 15.4823 9.20413 14.9648L4.54493 10.3281H32.6718C33.4054 10.3281 34 9.7335 34 8.99998C34 8.26646 33.4054 7.67186 32.6718 7.67186Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+          <div class="slider__switch-count">/</div>
+          <button class="slider-next">
+            <svg
+              width="34"
+              height="18"
+              viewBox="0 0 34 18"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1.32817 7.67186H29.4551L24.7957 3.03512C24.2758 2.51768 24.2739 1.67678 24.7913 1.15689C25.3087 0.636925 26.1497 0.635 26.6696 1.15237L33.6093 8.05861C33.6098 8.05901 33.6101 8.05947 33.6105 8.05987C34.1291 8.57731 34.1307 9.42093 33.6106 9.94009C33.6102 9.94049 33.6098 9.94095 33.6094 9.94135L26.6697 16.8476C26.1499 17.3649 25.3089 17.3631 24.7914 16.8431C24.274 16.3232 24.276 15.4823 24.7959 14.9648L29.4551 10.3281H1.32817C0.594646 10.3281 4.57764e-05 9.7335 4.57764e-05 8.99998C4.57764e-05 8.26646 0.594646 7.67186 1.32817 7.67186Z"
+                fill="currentColor"
+              />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper display-flex">
+          <img class="footer__logo" src="./img/logo_white.png" alt="logo" />
+          <ul class="footer__list display-flex">
+            <li class="footer__list__item">
+              <a class="footer__list-link" href="#about">О клинике</a>
+            </li>
+            <li class="footer__list__item">
+              <a class="footer__list-link" href="#services">Услуги</a>
+            </li>
+            <li class="footer__list__item">
+              <a class="footer__list-link" href="#specialists">Специалисты</a>
+            </li>
+            <li class="footer__list__item">
+              <a class="footer__list-link" href="#price">Цены</a>
+            </li>
+            <li class="footer__list__item">
+              <a class="footer__list-link" href="#contacts">Контакты</a>
+            </li>
+          </ul>
+          <div class="footer__social display-flex">
+            <div class="footer__social__item">
+              <a class="footer__social-link" href="#"
+                ><img
+                  class="footer__social-img"
+                  src="./icons/instagram.svg"
+                  alt="social"
+              /></a>
+            </div>
+            <div class="footer__social__item">
+              <a class="footer__social-link" href="#"
+                ><img
+                  class="footer__social-img"
+                  src="./icons/whatsapp.svg"
+                  alt="social"
+              /></a>
+            </div>
+            <div class="footer__social__item">
+              <a class="footer__social-link" href="#"
+                ><img
+                  class="footer__social-img"
+                  src="./icons/telegram.png"
+                  alt="social"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="js/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,30 @@
+.btn {
+	padding: 11px 24px;
+	border-radius: 50px;
+	background: $main-btn-color;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	cursor: pointer;
+}
+.btn-white {
+	padding: 11px 24px;
+	border-radius: 50px;
+	border: 1px solid $main-btn-color;
+	background: #ffffff;
+	color: $main-btn-color;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	cursor: pointer;
+}
+.btn:hover {
+	background: $hover-color;
+}
+.btn-white:hover {
+	background: $hover-color;
+	border: 1px solid #0dbc91;
+	background: #0dbc91;
+	color: #fff;
+}

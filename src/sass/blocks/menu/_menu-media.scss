@@ -1,0 +1,47 @@
+@media (max-width: 992px) {
+	.menu {
+		&__items {
+			width: 60%;
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	body {
+		position: relative;
+	}
+	.menu {
+		position: absolute;
+		top: 65px;
+		left: -100%;
+		background: rgba(69, 146, 127, 0.9);
+		backdrop-filter: blur(2px);
+		height: 86vh;
+		width: 100vw;
+		visibility: hidden;
+		opacity: 0;
+		z-index: 4;
+		transition: 0.6s all;
+		&.active {
+			left: 0;
+			visibility: visible;
+			opacity: 1;
+		}
+		&__items {
+			width: 100%;
+			padding-top: 48px;
+			flex-direction: column;
+			justify-content: flex-start;
+			align-items: flex-start;
+		}
+		&__item {
+			margin-top: 10px;
+		}
+		&__btn {
+			display: block;
+			margin-top: 39px;
+			background: #f6f6f6;
+			color: $main-color;
+		}
+	}
+}

@@ -1,0 +1,37 @@
+@import "libs/normalize";
+@import "libs/fonts";
+
+@import "base/variables";
+@import "base/mixins";
+
+* {
+	font-family: "PT Sans Caption", sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 19px;
+	height: 100%;
+}
+
+// helper
+@import "blocks/button";
+@import "blocks/display-flex";
+
+@import "blocks/header/header";
+@import "blocks/menu/menu";
+@import "blocks/main/main";
+@import "blocks/slider/slider";
+@import "blocks/footer/footer";
+@import "blocks/form/form";
+
+// media
+@import "blocks/header/header-media";
+@import "blocks/menu/menu-media";
+@import "blocks/main/main-media";
+@import "blocks/slider/slider-media";
+@import "blocks/footer/footer-media";
+@import "blocks/form/form-media";
